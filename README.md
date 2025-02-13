@@ -44,3 +44,10 @@ export LD_LIBRARY_PATH=$HOME/.torch/install/lib:$LD_LIBRARY_PATH
 export DYLD_LIBRARY_PATH=$HOME/.torch/install/lib:$DYLD_LIBRARY_PATH
 export LUA_CPATH='$HOME/.torch/install/lib/?.so;'$LUA_CPATH
 ```
+
+### Step 7 (finally, finally): Export CUDA Environment Variables
+```sh
+export CUDA_HOME="/usr/local/cuda"
+export PATH="$CUDA_HOME/bin:$PATH"
+export LD_LIBRARY_PATH="$CUDA_HOME/lib64:$LD_LIBRARY_PATH"
+```
