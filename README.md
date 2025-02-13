@@ -14,7 +14,7 @@ git clone https://github.com/gelocraft/installation-scripts-needed-by-arwa ~/.in
 > ~/.installation-scripts/install-cuda-toolkit.sh
 > ```
 >
-> **Step 3.2: Setup Cuda Environment Variables
+> **Step 3.2: Setup Cuda Environment Variables**
 > ```sh
 > ~/.installation-scripts/setup-cuda-env.sh
 > ```
