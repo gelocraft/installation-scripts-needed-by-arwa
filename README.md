@@ -10,6 +10,7 @@ cd ~/.installation-scripts && git pull
 
 ### Step 3: Install `cutorch` module
 ```sh
+~/.installation-scripts/install-cutorch.sh
 ```
 > [!Note]
 > **Verify `cutorch` with luarocks**
@@ -19,9 +20,10 @@ cd ~/.installation-scripts && git pull
 
 ### Step 4: Install `cunn` module
 ```sh
+~/.installation-scripts/install-cunn.sh
 ```
 > [!Note]
 > **Verify `cunn` with luarocks**
 > ```sh
-> luarocks list cutorch
+> luarocks list cunn
 > ```
