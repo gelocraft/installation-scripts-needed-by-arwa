@@ -36,3 +36,11 @@ git clone https://github.com/gelocraft/installation-scripts-needed-by-arwa ~/.in
 ```sh
 ~/.installation-scripts/install-display-rocks.sh
 ```
+
+### Step 6 (finally): Export Luarocks Environment Variables
+```sh
+export PATH=$HOME/.torch/install/bin:$PATH
+export LD_LIBRARY_PATH=$HOME/.torch/install/lib:$LD_LIBRARY_PATH
+export DYLD_LIBRARY_PATH=$HOME/.torch/install/lib:$DYLD_LIBRARY_PATH
+export LUA_CPATH='$HOME/.torch/install/lib/?.so;'$LUA_CPATH
+```
