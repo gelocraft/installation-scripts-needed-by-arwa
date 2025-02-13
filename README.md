@@ -1,37 +1,28 @@
 ### Step 1: Clone this repository
 ```sh
-git clone https://github.com/gelocraft/installation-scripts-needed-by-arwa ~/installation-scripts-needed-by-arwa
-```
-
-### Step 2: CD into ~/installation-scripts-needed-by-arwa
-```sh
-cd ~/installation-scripts-needed-by-arwa
-```
-
-### Step 3: Install display rocks
-```sh
-./install-display-rocks.sh
-
-```
-
-### Step 4: Install nvidia drivers
-```sh
-./install-nvidia-driver.sh
+git clone https://github.com/gelocraft/installation-scripts-needed-by-arwa ~/.installation-scripts
 ```
 
 > [!Important]
-> **Step 5: Restart your windows computer**
+> **Step 2: Install Cuda Toolkit for WSL 2**
+> ```sh
+> ~/.installation-scripts/install-cuda-toolkit.sh
+> ```
 
-### Step 6: Install cuda toolkit
+> [!Note]
+> Make sure you have installed Nvidia Driver for Windows 11 before installing Cuda Toolkit for WSL 2.
+
+> [!Tip]
+> Make sure to restart your windows 11 computer once the installation of cuda toolkit is done.
+
+### Step 3: Install torch
 ```sh
-bash ~/installation-scripts-needed-by-arwa/install-cuda-toolkit.sh
+~/.installation-scripts/install-torch.sh
 ```
+> [!Note]
+> This script will also install `nngraph` so u don't have to install it separately.
 
-> [!Important]
-> **Step 7: Restart your windows computer again**
-
-
-### Step 8 (final): Run ~/torch/install.sh to install packages for CUDA
+### Step 4 (final): Install display rocks
 ```sh
-bash ~/torch/install.sh
+~/.installation-scripts/install-display-rocks.sh
 ```
