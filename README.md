@@ -9,9 +9,14 @@ git clone https://github.com/gelocraft/installation-scripts-needed-by-arwa ~/.in
 > ~/.installation-scripts/install-prerequisites.sh
 > ```
 >
-> **Step 3: Install Cuda Toolkit for WSL 2**
+> **Step 3.1: Install Cuda Toolkit for WSL 2**
 > ```sh
 > ~/.installation-scripts/install-cuda-toolkit.sh
+> ```
+>
+> **Step 3.2: Setup Cuda Environment Variables
+> ```sh
+> ~/.installation-scripts/setup-cuda-env.sh
 > ```
 
 > [!Note]
