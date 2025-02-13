@@ -15,7 +15,7 @@ git clone https://github.com/gelocraft/installation-scripts-needed-by-arwa ~/.in
 > ```
 
 > [!Note]
-> Make sure you have installed Nvidia Driver for Windows 11 before installing Cuda Toolkit for WSL 2.
+> Make sure you have installed [Nvidia Driver for Windows 11](https://www.nvidia.com/en-us/drivers/) before installing Cuda Toolkit for WSL 2.
 
 > [!Tip]
 > Make sure to restart your windows 11 computer once the installation of cuda toolkit is done.
